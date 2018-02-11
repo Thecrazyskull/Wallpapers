@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Wallpapers</string>
+    <string name="loading_wallpapers">Loading wallpapers</string>
+    <string name="wallpapers_failed">No internet connection</string>
+    <string name="apply">Apply</string>
+    <string name="save">Save</string>
+    <string name="retry">Retry</string>
+    <string name="applying_wallpaper">Applying selected wallpaper...</string>
+    <string name="wallpaper_applied">Wallpaper applied</string>
+    <string name="wallpaper_instructions">Set wallpaper</string>
+    <string name="wallpaper_option_home_screen">Home screen</string>
+    <string name="wallpaper_option_lock_screen">Lock screen</string>
+    <string name="wallpaper_option_home_screen_and_lock_screen">Both</string>
+    <string name="saved">Wallpaper saved</string>
+    <string name="save_failed">Failed to save wallpaper</string>
+    <string name="no_perms_wallpaper">No permission to save wallpaper to storage</string>
+    <string name="no_perms_share">No permision to share wallpaper</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="random_home">Daily new wallpaper on the home screen</string>
+    <string name="random_home_summary">Every day a new home screen wallpaper will be automatically applied</string>
+    <string name="random_kg">Daily new wallpaper on the lock screen</string>
+    <string name="random_kg_summary">Every day a new lock screen wallpaper will be automatically applied</string>
+    <string name="automatic_update">Wallpaper updates</string>
+    <string name="wifi_only">Wifi only</string>
+    <string name="wifi_and_mobile_data">Wifi and Mobile data</string>
+    <string name="search">Search</string>
+</resources>

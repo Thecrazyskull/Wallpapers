@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wallpaper_options">
+        <item>@string/wallpaper_option_home_screen</item>
+        <item>@string/wallpaper_option_lock_screen</item>
+        <item>@string/wallpaper_option_home_screen_and_lock_screen</item>
+    </string-array>
+
+    <string-array name="update_entries">
+        <item>@string/wifi_only</item>
+        <item>@string/wifi_and_mobile_data</item>
+    </string-array>
+
+    <string-array name="update_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

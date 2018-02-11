@@ -1,0 +1,44 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="searchViewStyle">@style/AppTheme.SearchView</item>
+
+        <item name="android:colorControlNormal">@android:color/white</item>
+        <item name="android:textColorHint">@color/semi_transparent</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="AppTheme.ActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.SearchView" parent="Widget.AppCompat.Light.SearchView">
+        <item name="closeIcon">@drawable/ic_close</item>
+        <item name="searchIcon">@drawable/ic_search</item>
+        <item name="searchHintIcon">@null</item>
+
+        <item name="android:textColorHint">@color/semi_transparent</item>
+
+        <item name="android:editTextColor">@color/semi_transparent</item>
+    </style>
+
+    <style name="ViewPagerActivity" parent="AppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="SettingsActivity" parent="@android:style/Theme.Material.Light">
+        <item name="android:colorPrimary">@android:color/white</item>
+        <item name="android:colorPrimaryDark">@android:color/white</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- This is used for the icons -->
+        <item name="colorControlNormal">@color/colorAccent</item>
+    </style>
+</resources>

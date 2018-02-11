@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="random-home"
+        android:title="@string/random_home"
+        android:summary="@string/random_home_summary"
+        android:icon="@drawable/ic_home" />
+    <SwitchPreference
+        android:key="random-kg"
+        android:title="@string/random_kg"
+        android:summary="@string/random_kg_summary"
+        android:icon="@drawable/ic_lockscreen" />
+    <ListPreference
+        android:key="auto-update"
+        android:title="@string/automatic_update"
+        android:summary="%s"
+        android:icon="@drawable/ic_refresh"
+        android:entries="@array/update_entries"
+        android:entryValues="@array/update_values"
+        android:defaultValue="0" />
+</PreferenceScreen>

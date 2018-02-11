@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/white</color>
+    <color name="colorPrimaryDark">@color/gradient_start</color>
+    <color name="colorAccent">#ff1414</color>
+    <color name="gradient_start">#b7000000</color>
+    <color name="semi_transparent">#b3ffffff</color>
+    <color name="drawer_content">#8c000000</color>
+    <color name="drawer_title">#66000000</color>
+    <color name="actionbar_icon">#000000</color>
+    <color name="status_bar_color">#20111111</color>
+</resources>
